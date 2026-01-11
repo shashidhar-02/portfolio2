@@ -177,6 +177,23 @@
             background: linear-gradient(135deg, rgba(0, 102, 255, 0.05) 0%, rgba(0, 0, 0, 0.8) 100%);
         }
 
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            border: 4px solid #0066ff;
+            box-shadow: 0 0 30px rgba(0, 102, 255, 0.5);
+            animation: fadeInDown 0.8s ease;
+            overflow: hidden;
+        }
+
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
         .hero-content h1 {
             font-size: 3.5rem;
             margin-bottom: 1rem;
@@ -733,7 +750,7 @@
                 <li><a onclick="scrollTo('skills')">Skills</a></li>
                 <li><a onclick="scrollTo('projects')">Projects</a></li>
                 <li><a onclick="scrollTo('contact')">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1Gdrv7fWeB4ET8GgqB8s4qqP3HqOLTnVY/view?usp=drive_link" target="_blank" class="resume-btn">📄 Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1nxvv9gbnZ2ubwGoHF8KOUb3CYhS82t9i/view?usp=drive_link" target="_blank" class="resume-btn">📄 Resume</a></li>
             </ul>
             <div class="social-links">
                 <a href="https://linkedin.com/in/shashidhar-mushike-a82a142b7" target="_blank" title="LinkedIn">
@@ -754,6 +771,9 @@
     <section id="hero">
         <div class="container">
             <div class="hero-content">
+                <div class="profile-photo">
+                    <img src="profile.jpg" alt="Shashidhar Mushike">
+                </div>
                 <h1>SHASHIDHAR MUSHIKE</h1>
                 <p class="subtitle">DevOps Engineer | Infrastructure Automation</p>
                 
@@ -763,7 +783,7 @@
                     <p>📧 <a href="mailto:shashidharmushike@gmail.com">shashidharmushike@gmail.com</a></p>
                 </div>
 
-                <a href="https://drive.google.com/file/d/1Gdrv7fWeB4ET8GgqB8s4qqP3HqOLTnVY/view?usp=drive_link" target="_blank" class="resume-btn-large">📥 Download Resume</a>
+                <a href="https://drive.google.com/file/d/1nxvv9gbnZ2ubwGoHF8KOUb3CYhS82t9i/view?usp=drive_link" target="_blank" class="resume-btn-large">📥 Download Resume</a>
 
                 <div style="margin-top: 3rem; font-size: 2rem; animation: bounce 2s infinite;">↓</div>
             </div>
